@@ -16,7 +16,7 @@ import matplotlib.pyplot as plt
 OUTPUT_FOLDER_CHESS_DATA = "/Volumes/Lena/Fynn/16MGames/ChessDataPROCESSED"
 OUTPUT_FOLDER_RANDOM = "/Volumes/Lena/Fynn/16MGames/RandomEvalPROCESSED"
 OUTPUT_FOLDER_TACTIC = "/Volumes/Lena/Fynn/16MGames/TacticDataPROCESSED"
-MODEL_FOLDER = "/Volumes/Lena/Fynn/16MGames/ModelWeights"
+MODEL_FOLDER = "/content/drive/MyDrive/SEMI_ModelWeights"
 os.makedirs(MODEL_FOLDER, exist_ok=True)
 MODEL_WEIGHTS_PATH = os.path.join(MODEL_FOLDER, "chess_model_weights_zero.weights.h5")
 BATCH_SIZE = 256
