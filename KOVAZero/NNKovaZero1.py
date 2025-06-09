@@ -13,7 +13,7 @@ from NNKOVA3 import board_to_tensor, EPOCHS_PER_CHUNK, BATCH_SIZE, LEARNING_RATE
 import pandas as pd
 # === CONFIGURATION ===
 # ... (existing config) ...
-SELF_PLAY_DATA_FOLDER = "/Volumes/Lena/Fynn/16MGames/SelfPlayData"
+SELF_PLAY_DATA_FOLDER = "/content/drive/MyDrive/SEMI_SelfPlayData"
 os.makedirs(SELF_PLAY_DATA_FOLDER, exist_ok=True)
 NUM_SELF_PLAY_GAMES_PER_ITERATION = 100 # Number of games to play before training
 NUM_MCTS_SIMULATIONS = 800 # Number of MCTS simulations per move (AlphaZero typically uses ~800)
