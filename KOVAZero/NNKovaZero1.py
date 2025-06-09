@@ -15,7 +15,7 @@ import pandas as pd
 # ... (existing config) ...
 SELF_PLAY_DATA_FOLDER = "/content/drive/MyDrive/SEMI_SelfPlayData"
 os.makedirs(SELF_PLAY_DATA_FOLDER, exist_ok=True)
-NUM_SELF_PLAY_GAMES_PER_ITERATION = 100 # Number of games to play before training
+NUM_SELF_PLAY_GAMES_PER_ITERATION = 10 # Number of games to play before training
 NUM_MCTS_SIMULATIONS = 800 # Number of MCTS simulations per move (AlphaZero typically uses ~800)
 # ... (rest of config) ...
 
